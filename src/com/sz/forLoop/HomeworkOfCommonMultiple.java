@@ -12,7 +12,7 @@ public class HomeworkOfCommonMultiple {
 		int counter = 0;
 		
 		
-		for (int multiple=0; multiple <10000; multiple ++) {
+		for (int multiple=1; multiple <10000; multiple ++) {
 			if (multiple % 24 == 0 && multiple % 38 ==0) {
 				counter ++;
 			}
